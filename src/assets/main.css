@@ -15,3 +15,33 @@ a,
   transition: 0.4s;
 }
 
+.width-large {
+  min-width: 500px;
+}
+
+.width-medium {
+  min-width: 350px;
+}
+.width-full {
+  width: 100%;
+}
+
+flex {
+  display: flex;
+}
+
+flex[left] {
+  justify-content: left;
+}
+
+flex[space-between] {
+  justify-content: space-between;
+}
+
+.margin-left-small {
+  margin-left: 10px;
+}
+
+.margin-small {
+  margin: 10px;
+}
